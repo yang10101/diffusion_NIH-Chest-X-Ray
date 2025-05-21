@@ -19,7 +19,7 @@
 
 2. 更改了 ./iddm/model/trainers 下的 dm.py 文件：
 	- 更新了 def train_in_iter() 函数，实现了梯度累计（步数为4）；
-	- 记录了每轮每步的 Loss 损失值，新加了def generate_loss_curves() 函数用来生成训练损失曲线图。
+	- 记录了每轮每步的 Loss 损失值，新增了def generate_loss_curves() 函数用来生成训练损失曲线图。
 ### 运行
 #### 训练
 - 确保数据集已放入./datasets/X-Ray，可通过 https://pan.baidu.com/s/1RTaBfaCu-JgR3Rpq_TwBKg?pwd=xgni 获取训练数据集X-Ray.zip（或自定义数据集）
@@ -36,7 +36,7 @@ pip install -r requirements.txt # 或使用 pip install -e .
 python train.py --epochs 300 --batch_size 1 --image_size 128 --result_path ./results
 ```
 #### 推理生成
-- 确保模型文件已放入./results/X-Ray_gen，可通过 https://pan.baidu.com/s/1MGSHymGGAqXcGopSAZWbFQ?pwd=mr45 获取模型文件X-Ray_gen.zip
+- 确保模型文件已放入./results/X-Ray_gen，可通过 https://pan.baidu.com/s/1MGSHymGGAqXcGopSAZWbFQ?pwd=mr45 获取X-Ray_gen.zip
 ```bash
 # 运行 generate.py 生成
 # 每次生成一类图像
