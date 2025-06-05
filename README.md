@@ -63,4 +63,4 @@ python ./iddm/tools/enhance_xray.py
 	- Pleural_Thickening（胸膜增厚）：115.03021424543965
 
 ### 致谢
- # 本项目基于 [IDDM: Integrated-Design-Diffusion-Model. Pytorch实现扩散模型，生成模型，分布式训练](https://github.com/chairc/Integrated-Design-Diffusion-Model) fork并改进而来。感谢原作者 [chairc](https://github.com/chairc) 提供的开源代码。
+> 本项目基于[IDDM: Integrated-Design-Diffusion-Model](https://github.com/chairc/Integrated-Design-Diffusion-Model)fork并改进而来。感谢原作者[chairc](https://github.com/chairc)提供的开源代码。
