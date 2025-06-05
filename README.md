@@ -2,11 +2,6 @@
   
 > 基于扩散模型实现胸部X光医学影像的生成。
 
-## 注意事项
-
-### 参考项目
-[IDDM: Integrated-Design-Diffusion-Model. Pytorch实现扩散模型，生成模型，分布式训练](https://github.com/chairc/Integrated-Design-Diffusion-Model)
-
 ### 具体改动
 #### 1. 硬件配置与环境依赖
 - Python == 3.10  
@@ -66,3 +61,6 @@ python ./iddm/tools/enhance_xray.py
 	- Fibrosis（肺纤维化）：143.92358086379602
 	- Nodule_Mass（肺结节）：140.38330557827024
 	- Pleural_Thickening（胸膜增厚）：115.03021424543965
+
+### 致谢
+ # 本项目基于 [IDDM: Integrated-Design-Diffusion-Model. Pytorch实现扩散模型，生成模型，分布式训练](https://github.com/chairc/Integrated-Design-Diffusion-Model) fork并改进而来。感谢原作者 [chairc](https://github.com/chairc) 提供的开源代码。
